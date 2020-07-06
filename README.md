@@ -1,4 +1,6 @@
-# critical-css [![Build Status](https://travis-ci.org/kburtwraynolds/critical-css.svg)](https://travis-ci.org/kburtwraynolds/critical-css)
+#This is a forked package from [kalfheim/critical-css](https://github.com/kalfheim/critical-css) which was not maintained and not updated for laravel 7.
+
+##This package is experimental and may not be maintained. Use at your own risk.
 
 A Laravel package for generating and using inline critical-path CSS.
 
@@ -10,7 +12,6 @@ A Laravel package for generating and using inline critical-path CSS.
 
 More information:
 
-- https://github.com/addyosmani/critical/blob/master/README.md#why
 - https://developers.google.com/web/fundamentals/performance/
 
 **Table of Contents**

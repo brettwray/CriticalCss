@@ -1,6 +1,6 @@
-#This is a forked package from [kalfheim/critical-css](https://github.com/kalfheim/critical-css) which was not maintained and not updated for laravel 7.
+# This is a forked package from [kalfheim/critical-css](https://github.com/kalfheim/critical-css) which was not maintained and not updated for laravel 7.
 
-##This package is experimental and may not be maintained. Use at your own risk.
+## This package is experimental and may not be maintained. Use at your own risk.
 
 A Laravel package for generating and using inline critical-path CSS.
 

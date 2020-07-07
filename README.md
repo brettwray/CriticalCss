@@ -47,7 +47,7 @@ Next, you'll need to require the package using Composer:
 
 From your project's base path, run:
 
-    $ composer require krisawzm/critical-css
+    $ composer require burtwraynolds/critical-css
 
 ### 3) Configure Laravel
 
@@ -78,7 +78,7 @@ Generate a template for the `config/criticalcss.php` file by running:
 
     $ php artisan vendor:publish
 
-> **Note:** Descriptions for the config options are only present in the config file, **not** in this readme. Click [here](https://github.com/kburtwraynolds/critical-css/blob/master/src/config/criticalcss.php) to open the config file on GitHub.
+> **Note:** Descriptions for the config options are only present in the config file, **not** in this readme. Click [here](https://github.com/brettwray/critical-css/blob/master/src/config/criticalcss.php) to open the config file on GitHub.
 
 ## Usage
 
@@ -92,7 +92,7 @@ Providing everything is set up and configured properly, all you need to do in or
 
 This will generate a unique file for each of the URIs (routes) provided.
 
-See [this commit](https://github.com/kburtwraynolds/critical-css-demo/commit/8288ba8971fc7381ef933affdde3b3d71c5475e3) for a diff of the implementation.
+See [this commit](https://github.com/brettwray/critical-css-demo/commit/8288ba8971fc7381ef933affdde3b3d71c5475e3) for a diff of the implementation.
 
 ### Using critical-path CSS with Blade templates
 
@@ -129,21 +129,6 @@ Full example (using Elixir to generate the URL for the CSS file, which or course
 ```
 
 For multiple views, you may wrap `@criticalCss` in a `@section`, then `@yield` the section in a master view.
-
-## A demo
-
-I made a simple demo using [this](http://startbootstrap.com/template-overviews/clean-blog/) Bootstrap theme. It's a fairly simple theme, and it does not have any major performance issues, but yet, implementing inline critical-path CSS **did** improve performance.
-
-Demo repo: https://github.com/kburtwraynolds/critical-css-demo
-
-See [this commit](https://github.com/kburtwraynolds/critical-css-demo/commit/8288ba8971fc7381ef933affdde3b3d71c5475e3) for a diff of the implementation.
-
-### [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) results
-
-              | Mobile        | Desktop
-------------- | ------------- | -------------
-Before | <img src="https://i.imgur.com/86VyVgB.png"> | <img src="https://i.imgur.com/rS9j8Iq.png">
-**After** | <img src="https://i.imgur.com/iSMjzCs.png"> | <img src="https://i.imgur.com/d86k0vj.png">
 
 ## A note on Laravel 5.0 compatibility
 
